@@ -14,9 +14,9 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Training my_model()",
                                     formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 
-    parser.add_argument('val1', type=float, default=1,
+    parser.add_argument('--val1', type=float, default=1,
                     help='value1')
-    parser.add_argument('val2', type=float, default=1,
+    parser.add_argument('--val2', type=float, default=1,
                     help='value 2')
 
 
