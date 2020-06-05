@@ -6,8 +6,8 @@ RUN apt-get update && \
     wget https://bootstrap.pypa.io/get-pip.py && \
     python3 get-pip.py
 
-ADD . /
-WORKDIR /
+ADD . /add
+WORKDIR /add
 
 
-ENTRYPOINT ["python3", "add.py"]
+ENTRYPOINT ["python3", "/add/add.py"]
